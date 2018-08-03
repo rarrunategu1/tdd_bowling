@@ -1,0 +1,24 @@
+Research the aspects of Test Driven Development
+
+Take some time and investigate the aspects of Test Driven 
+Development. What kind of tests are there? What are some 
+good rules to creating tests? How do you determine a good test.
+
+Test Driven Development is based on testing your code as you go.  
+The first step is to write a test that defines a function or 
+improvements of a function (also known as a test case) while understanding 
+the feature's requirements.After writing your new test, you run 
+it to see if it passes.  If it fails you write some code that will allow 
+the test to pass.  Take it 1 to 10 edits at a time.  Only seconds or a couple 
+minutes of your time should be taken before running tests.  
+It doesn't have to be perfect, it just has to pass. 
+
+Once you're able to pass the test case, refactor your code.  Refactoring
+regulary as you build your code will keep it clean and will allow you
+to place certain parts of your code accordingly, so that it's easier to read
+and any uneccessary code is removed to allow for .  At this point you test again
+so that you know that the refactoring did not alter any existing functionality.
+This is the process you want to repeat until your code is done.  
+With TDD you can be sure that the new code will not break or degrade existing features. 
+
+It's a foolproof method!  :)
